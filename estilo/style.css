@@ -168,7 +168,7 @@ div.video > iframe {
     height: 90%;
 }
 
-aside {
+aside#conteudo {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
@@ -187,6 +187,25 @@ aside > ul {
     list-style-type: '\2611\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+}
+
+section#imagem {
+    background-image: url("../imagens/wallpaper.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.205);
+}
+
+section#imagem > p {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
